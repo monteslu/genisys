@@ -1,0 +1,29 @@
+{
+  "name": "genisys",
+  "version": "0.1.2",
+  "description": "mqtt johnny-five client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/monteslu/genisys.git"
+  },
+  "keywords": [
+    "mqtt",
+    "johnny-five",
+    "firmata"
+  ],
+  "author": "Luis Montes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monteslu/genisys/issues"
+  },
+  "homepage": "https://github.com/monteslu/genisys#readme",
+  "dependencies": {
+    "firmata": "^0.5.4",
+    "mqtt": "^1.3.2",
+    "mqtt-serial": "^0.5.0"
+  }
+}
